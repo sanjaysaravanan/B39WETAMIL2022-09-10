@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Internal Styling -->
+  <style>
+    h1 {
+      color: greenyellow;
+      font-style: italic;
+      display: inline;
+    }
+
+    table, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    td {
+      color: green;
+      background-color: greenyellow;
+    }
+
+    th {
+      color: red;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <!-- table(design table task) 
+    thead -> table header
+
+    tr -> table row
+    th -> column/cell header
+    td -> table/cell/ data
+  -->
+  <h1>B39WETamil</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Rep</th>
+        <th>Item</th>
+        <th>Units</th>
+        <th>Units Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Smith</td>
+        <td>Desk</td>
+        <td>2</td>
+        <td>125</td>
+      </tr>
+      <tr>
+        <td>Gill</td>
+        <td>Pencil</td>
+        <td>7</td>
+        <td>1.29</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2" >Rep</th>
+        <th colspan="2">Item</th>
+        <th rowspan="2">Total</th>
+      </tr>
+      <tr>
+        <th>Units</th>
+        <th>Units Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Smith</td>
+        <td>Desk</td>
+        <td>2</td>
+        <td>125</td>
+      </tr>
+      <tr>
+        <td>Gill</td>
+        <td>Pencil</td>
+        <td>7</td>
+        <td>1.29</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
