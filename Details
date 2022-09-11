@@ -8,6 +8,14 @@ Topics:
   iframe --> Page inside a webpage
 
   table(design table task)
+  table(design table task) 
+    thead -> table header
+    tr -> table row
+    th -> column/cell header
+    td -> table/cell/ data
+    
+    colspan --> join n columns
+    rowspan join n rows
 
   basic styling, CSS ---> Cascading Style Sheet --> beautification, cosmetic of webpage
     styling possible only under certain keys with certain values
